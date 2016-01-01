@@ -1,0 +1,332 @@
+/*
+Author: Access Online
+Author URL: http://www.accessonline.xyz
+License:  CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication 
+License URL: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+jgallery license url: http://jgallery.jakubkowalczyk.pl/license
+*/
+body {
+	background: rgb(224, 224, 224) none repeat scroll 0% 0%;
+	font-family: Verdan; Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	overflow: auto;
+}
+h1, h2, h3 {
+	text-align: center;
+	padding-left: 0%;
+	color: #649F8A;
+
+}
+p{
+	padding: 2%;
+	color: #000000;
+	font-family: Verdan; Tahoma, Arial, sans-serif;
+	font-size: 18px
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+#wrapper {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 98%;
+	background: #FFFFFF;
+	border: 1px solid #989898;
+	border-radius: 2px;
+	box-shadow: 0px 0px 10px 0px rgba(1, 17, 4, 0.8);
+}
+#callout {
+	width: 100%;
+	height: auto;
+	background: #3B9B6C;
+	overflow: hidden;
+	text-align: right;
+}
+#callout p {
+	text-align: right;
+	color: #FFFFFF;
+	font-size: 13px;
+	padding: 0.1% 5% 0 0;
+}
+#callout p a {
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+header {
+	width: 100%;
+	min-height: 125px;
+	padding: 0px;
+}
+header .logo {
+float: left;
+text-align: left;
+max-width: 100%;
+height: auto;
+width: auto;
+width: 30%;
+min-height: 125px;
+padding: 5px;
+padding-left: 10px;
+padding-right: 60px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding-top: 50px;
+}
+nav ul li {
+	float: left;
+	border-bottom: 2px dashed #479055;
+	border-top: 2px dashed #479055;
+	width: 10%;
+}
+nav ul li a{
+	background: #FFFFFF;
+	display: block;
+	padding: 5% 1%;
+	font-weight: bold;
+	font-size: 18px;
+	color: #37833F;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li a:hover, nav ul li a.active a {
+	background-color:  #48A16C;
+	color: #FFFFFF;
+}
+.clearfix {
+	clear: both;
+}
+.left-col {
+	width: 55%;
+	float: left;
+	margin: -2% 1% 1%;
+}
+.sidebar {
+	width: 40%;
+	float: right;
+	margin: 1%;
+	text-align: center;
+
+}
+.responsive {
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	padding: 1%;
+}
+.section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+/*  galery   ================ */
+.jgallery {
+width: 100% !important;
+height: 100% !important;
+width: 100%;
+border-top: 5px solid #2B7556;
+}
+.icons {
+display: none;
+}
+.jgallery.jgallery-slider:after {
+	margin-top:-15px;
+	left:100px;
+	right:100px;
+	top:100%;
+	height:30px;
+	background: none;
+	box-shadow: none;
+	transform: none;
+	content:"";
+	position:absolute;
+	display:block
+}
+.nav-bottom {
+	height:auto;
+	-webkit-box-shadow:none!important;
+	box-shadow:none!important;
+	background:0 0;
+	-webkit-transition:-webkit-transform .2s,opacity .2s;
+	transition:transform .2s,opacity .2s;
+	left:4px;
+	right:4px;
+	top:auto;
+	bottom:3px;
+	display: none
+}
+/*  GRID OF FOUR   ============================== */
+.col_1{
+	display: block;
+	float:left;
+	margin: 0% 0 0% 0%;
+	background: #fff;
+}
+.col_1:first-child { margin-left: 0; width: 30%; } /* all browsers except IE6 and lower */
+.first_col {
+ width: 30%;
+}
+.span_1 {
+	width: 20%;
+	padding-right: 2%;
+}
+.section_group {
+width: 100%;
+}
+.span_2 {
+margin-top: 8%;
+}
+.partner {
+margin-bottom: -8%;
+}
+/*  End GRID OF FOUR   ============================================================================= */
+.primary {
+color: #3EBF96;
+}
+.facebook {
+color: #3b579d;
+}
+.twitter {
+color: #5da7dc;
+}
+.googleplus {
+color: #DC4E41;
+}
+.youtube {
+color: #C21A1F;
+}
+.fa-2x {
+    font-size: 1.5em;
+}
+footer {
+	background: #283F35;
+	width: 100%;
+	overflow: hidden;
+	border-top: 25px solid #2B7556;
+	border-bottom: 20px solid #0C362F;
+}
+footer p, footer h3 {
+	color: #FFFFFF;
+}
+footer p a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline;
+}
+ul li img {
+	height: 50px;
+}
+/*----------------------MEDIA!!!------------------------------*/
+@media screen and (max-width: 478px) {
+	body {
+		font-size: 15px;
+	}
+	header .logo {
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	}
+	.span_1 {
+	width: 100%;
+	padding-right: 0%;
+	}
+	.section_group {
+	width: 100%;
+	}
+	.col_1:first-child { margin-left: 0; width: 100%; } /* all browsers except IE6 and lower */
+	.span_2 {
+	margin-top: 0%;
+	width: 100%;
+	}
+	.partner {
+	margin-bottom: 0%;
+	width: 100%;
+	font-size: 17px;
+	}
+	.first_col {
+	 width: 100%;
+	 font-size: 17px;
+	}
+	.fa-2x {
+    font-size: 1.5em;
+	}
+
+}
+@media screen and (max-width: 740px) {
+	nav {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	nav ul {
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	nav ul li {
+		text-align: center;
+		margin-left: 0 auto;
+		width: 100%;
+		border-top: 1px solid #287D2C;
+		border-right: 0px solid #287D2C;
+		border-bottom: 1px solid #287D2C;
+		border-left: 0px solid #287D2C;
+	}
+	nav ul li a {
+		padding: 8px 0;
+		font-size: 16px;
+	}
+	.left-col {
+		width: 100%;
+
+	}
+	.sidebar {
+		width: 100%;
+
+	}
+	.section {
+		float: left;
+		width: 100%;
+		margin: 0;
+
+	}
+	header .logo {
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	}
+	.span_1 {
+	width: 100%;
+	padding-right: 0%;
+	}
+	.section_group {
+	width: 100%;
+    }
+	.col_1:first-child { margin-left: 0; width: 100%; } /* all browsers except IE6 and lower */
+	.span_2 {
+	margin-top: 0%;
+	width: 100%;
+	}
+	.partner {
+	margin-bottom: 0%;
+	width: 100%;
+	}
+	.first_col {
+	 width: 100%;
+	 font-size: 18px;
+	}
+}
