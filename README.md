@@ -1,10 +1,10 @@
-# [Access Online](http://www.accessonline.xyz/) - [Design Company](http://designcompanytemplate.bitbucket.org/)
+# [Access Online](http://www.accessonline.xyz/) - [Design Company](http://accessonline.github.io/designcompany/)
 
-[Design Company](http://designcompanytemplate.bitbucket.org/) is a responsive website template created by [Access Online](http://www.accessonline.xyz/).
+[Design Company demo](http://accessonline.github.io/designcompany/) is a responsive website template created by [Access Online](http://www.accessonline.xyz/).
 
 ## Getting Started
 
-To use this template, please contact our team for support. Hourly rates apply
+To use this template, please clone it to github. Contact our team for customization and support. Rates apply.
 
 ## Bugs and Issues
 
@@ -16,4 +16,4 @@ Design company was created by and is maintained by **The Access online team**, a
 
 ## Copyright and License
 
-Copyright 2015 Access Online. Code released under the [Attribution 3.0 Unported](https://bitbucket.org/designcompanytemplate/designcompanytemplate.bitbucket.org/src/5d1fe89e64fe7e9362508410fd6e2963685c4a6c/LICENSE) license.
+Copyright 2015 Access Online.  [CC0 1.0 Universal](https://github.com/accessonline/designcompany/blob/master/LICENSE) license.
