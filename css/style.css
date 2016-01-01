@@ -130,7 +130,7 @@ nav ul li a:hover, nav ul li a.active a {
 /*  galery   ================ */
 .jgallery {
 width: 100% !important;
-height: 70% !important;
+height: 50% !important;
 border-top: 5px solid #2B7556;
 }
 .icons {
