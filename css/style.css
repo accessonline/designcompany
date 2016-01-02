@@ -3,7 +3,6 @@ Author: Access Online
 Author URL: http://www.accessonline.xyz
 License:  CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication 
-License URL: https://creativecommons.org/publicdomain/zero/1.0/deed.en
 jgallery license url: http://jgallery.jakubkowalczyk.pl/license
 quotes rotator: https://github.com/codrops/Blueprint-QuotesRotator; license url: http://tympanus.net/codrops/licensing/;
 */
@@ -308,7 +307,7 @@ footer p, footer h3 {
 	color: #FFFFFF;
 }
 footer p a {
-	color: #FFFFFF;
+	color: #3BBF41;
 	text-decoration: none;
 }
 ul {
