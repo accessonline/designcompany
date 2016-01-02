@@ -5,6 +5,7 @@ License:  CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication 
 License URL: https://creativecommons.org/publicdomain/zero/1.0/deed.en
 jgallery license url: http://jgallery.jakubkowalczyk.pl/license
+quotes rotator: https://github.com/codrops/Blueprint-QuotesRotator; license url: http://tympanus.net/codrops/licensing/;
 */
 body {
 	background: rgb(224, 224, 224) none repeat scroll 0% 0%;
@@ -126,6 +127,97 @@ nav ul li a:hover, nav ul li a.active a {
 	float: left;
 	margin: 2% 2%;
 	text-align: center;
+}
+/*  Quotes rotator  ================ */
+.cbp-qtrotator {
+	position: relative;
+	margin: 0 0 0 0;
+	max-width: 800px;
+	width: 100%;
+	min-height: auto;
+}
+
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: auto;
+	border-top: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	padding-left: 10px;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	width: 100%;
+}
+
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	border-bottom: none;
+}
+
+/* Currently visible */
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative; 
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-qtrotator .cbp-qtcontent:after {
+	clear: both;
+}
+
+.cbp-qtprogress {
+	position: absolute;
+	background: rgba(71, 218, 164, 0);
+	height: 1px;
+	width: 0%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-qtrotator blockquote {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+}
+
+.cbp-qtrotator blockquote p {
+	font-size: 2em;
+	color: #888;
+	font-weight: 300;
+	margin: 0.4em 0 1em;
+}
+
+.cbp-qtrotator blockquote footer {
+	font-size: 1.2em;
+}
+
+.cbp-qtrotator blockquote footer:before {
+	content: '? ';
+}
+
+.cbp-qtrotator .cbp-qtcontent img {
+	float: right;
+	margin-left: 3em;
+}
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) { 
+
+	.cbp-qtrotator {
+		font-size: 70%;
+	}
+
+	.cbp-qtrotator img {
+		width: 80px;
+	}
+
 }
 /*  galery   ================ */
 .jgallery {

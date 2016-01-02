@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="js/jgallery.min.js?v=1.5.5"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script type="text/javascript" src="js/touchswipe.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
@@ -81,9 +82,20 @@ $( function() {
 		<div class="section_group">
 				<div class="col_1 span_1 first_col">
 				<h1>Testimonials</h1>
-				<blockquote><i class="fa fa-quote-left"></i>
-				You're template is awesome. My website now looks great <i class="fa fa-quote-right"></i><b> —Anonymous</b></footer>
-				</blockquote>
+					<div id="cbp-qtrotator" class="cbp-qtrotator">
+						<div class="cbp-qtcontent">
+							<blockquote>
+							<p>You're template is awesome. My website now looks great</p>
+							<p>- Anonymous</p>
+							</blockquote>
+						</div>
+						<div class="cbp-qtcontent">
+							<blockquote>
+							  <p>Thank you for your template. You rocks!!</p>
+							  <p>- Anonymous</p>
+							</blockquote>
+						</div>
+					</div>
 				</div>
 				<div class="partner">
 				<h1>Our partners<h1>
@@ -143,6 +155,30 @@ $( function() {
 	</div>
 	<p style="text-align: center; padding: 0px;">Designed by <a href="http://www.accessonline.xyz"> accessonline.xyz</a></p>
 
+
+		<script src="js/jquery.cbpQTRotator.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpQTRotator( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 300,
+					// default transition easing
+					easing : 'ease',
+					// rotator interval (ms)
+					interval : 8000
+				}
+				- destroy:
+				$( selector ).cbpQTRotator( 'destroy' );
+				*/
+
+				$( '#cbp-qtrotator' ).cbpQTRotator();
+
+			} );
+		</script>
 </body>
 
 </html>
