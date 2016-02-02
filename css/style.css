@@ -5,6 +5,7 @@ License:  CC0 1.0 Universal (CC0 1.0)
 Public Domain Dedication 
 jgallery license url: http://jgallery.jakubkowalczyk.pl/license
 quotes rotator: https://github.com/codrops/Blueprint-QuotesRotator; license url: http://tympanus.net/codrops/licensing/;
+hamburger menu from: https://github.com/kenhoward/jquery-hamburger-nav;
 */
 body {
 	background: rgb(224, 224, 224) none repeat scroll 0% 0%;
@@ -45,12 +46,20 @@ img {
 	background: #3B9B6C;
 	overflow: hidden;
 	text-align: right;
+	height: 15%;
+
+}
+#callout .social {
+	margin-top: -6%;
+	padding: 1% 0% 0.5% 1%;
+	margin-right: 2%;
 }
 #callout p {
-	text-align: right;
+	text-align: left;
 	color: #FFFFFF;
 	font-size: 13px;
 	padding: 0.1% 5% 0 0;
+	margin-left: 2%;
 }
 #callout p a {
 	color: #FFFFFF;
@@ -73,6 +82,15 @@ min-height: 125px;
 padding: 5px;
 padding-left: 10px;
 padding-right: 60px;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(img/menu.png);
+}
+a:hover#menu-icon {
+
 }
 nav ul {
 	list-style: none;
@@ -98,6 +116,7 @@ nav ul li a{
 nav ul li a:hover, nav ul li a.active a {
 	background-color:  #48A16C;
 	color: #FFFFFF;
+	text-decoration: underline;
 }
 .clearfix {
 	clear: both;
@@ -356,6 +375,12 @@ ul li img {
 	.fa-2x {
     font-size: 1.5em;
 	}
+	#callout .social {
+	margin-top: -15%;
+	padding: 1% 0% 0.5% 1%;
+	margin-right: 2%;
+	}
+
 
 }
 @media screen and (max-width: 740px) {
@@ -420,4 +445,5 @@ ul li img {
 	 width: 100%;
 	 font-size: 18px;
 	}
+
 }
