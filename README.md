@@ -4,7 +4,7 @@
 
 [demo](http://accessonline.github.io/designcompany/) 
 
-This theme is released free of copyrights under Creative Commons CC0. You may download it or do anything with it as you wish even for commercial. Attribution is not required.
+Unless otherwise noted, this theme is released free of copyrights under Creative Commons CC0. You may download it or do anything with it as you wish even for commercial. Attribution is not required.
 
 Pictures from [pixabay] (https://pixabay.com/)
 
