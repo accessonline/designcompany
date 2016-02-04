@@ -1,8 +1,8 @@
-# [Access Online](http://www.accessonline.xyz/) - [Design Company](http://accessonline.github.io/designcompany/)
+# [Airraya Group web design](http://webdesign.airrayagroup.com/) - [Design Company](http://airrayagroupwebdesign.github.io/designcompany/)
 
-[Design Company](http://accessonline.github.io/designcompany/) is a responsive website template created by [Access Online](http://www.accessonline.xyz/).
+[Design Company](http://airrayagroupwebdesign.github.io/designcompany/) is a responsive website template created by [Airraya Group web design](http://webdesign.airrayagroup.com/).
 
-[demo](http://accessonline.github.io/designcompany/) 
+[demo](http://airrayagroupwebdesign.github.io/designcompany/) 
 
 Unless otherwise noted, this theme is released free of copyrights under Creative Commons CC0. You may download it or do anything with it as you wish even for commercial. Attribution is not required.
 
@@ -22,4 +22,4 @@ Design company was created by and is maintained by **The Access online team**, a
 
 ## Copyright and License
 
-Copyright 2015 Access Online.  [CC0 1.0 Universal](https://github.com/accessonline/designcompany/blob/master/LICENSE) license.
+Copyright 2015 AIR RAYA GROUP.  [CC0 1.0 Universal](https://github.com/airrayagroupwebdesign/designcompany/blob/master/LICENSE) license.
