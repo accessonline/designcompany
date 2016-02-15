@@ -18,6 +18,9 @@ Have a bug or an issue with this template? Please contact our team airrayagroup@
 
 Design Company theme was created by and is maintained by **Air raya Group Web Design team**, at [Air Raya Group Web Design](http://webdesign.airrayagroup.com/).
 
+## Credit
+Thank you for the tutorial from [w3newbie](http://www.w3newbie.com/),[tympanus](https://github.com/codrops/Blueprint-QuotesRotator),[jgallery](http://jgallery.jakubkowalczyk.pl/).
+
 
 ## Copyright and License
 
