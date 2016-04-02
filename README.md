@@ -1,8 +1,8 @@
 ## [Air Raya Group](http://webdesign.airrayagroup.com/)
 
-[Design Company theme](http://airrayagroupwebdesign.github.io/designcompany/) is a responsive website template created by [Air Raya Group](http://webdesign.airrayagroup.com/).
+[Design Company theme](http://designcompany.yourfreebies.org/) is a responsive website template created by [Air Raya Group](http://webdesign.airrayagroup.com/).
 
-[demo](http://airrayagroupwebdesign.github.io/designcompany/) 
+[demo](http://designcompany.yourfreebies.org/) 
 
 Unless otherwise noted, this theme is released free of copyrights under Creative Commons CC0.
 
