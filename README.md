@@ -4,7 +4,7 @@
 
 [demo](http://designcompany.yourfreebies.org/) 
 
-Unless otherwise noted, this theme is released free of copyrights under Creative Commons CC0.
+Unless otherwise noted, this theme is released Apache License 2.0
 
 ## Getting Started
 
